@@ -11,7 +11,7 @@
 
 - 🌱 I’m currently learning **ReactJS, NextJS, SolidJS**
 
-- 👨‍💻 All of my projects are available at [Repositories]([https://github.com/bsreeram08](https://github.com/bsreeram08?tab=repositories))
+- 👨‍💻 All of my projects are available at [Repositories](https://github.com/bsreeram08?tab=repositories)
 
 - 💬 Ask me about **NodeJS, Typescript, Postgres, Redis, Firebase**
 
