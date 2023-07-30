@@ -5,8 +5,6 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=bsreeram08" alt="bsreeram08" /></a> </p>
 
-<p align="left"> <a href="https://twitter.com/bsreeram081999" target="blank"><img src="https://img.shields.io/twitter/follow/bsreeram081999?logo=twitter&style=for-the-badge" alt="bsreeram081999" /></a> </p>
-
 - 🔭 I’m currently working on [experiments](https://github.com/bsreeram08/experiments)
 
 - 🌱 I’m currently learning **ReactJS, NextJS, SolidJS**
@@ -29,3 +27,5 @@
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=bsreeram08&show_icons=true&locale=en&layout=compact" alt="bsreeram08" /></p>
 
+
+<p align="left"> <a href="https://twitter.com/bsreeram081999" target="blank"><img src="https://img.shields.io/twitter/follow/bsreeram081999?logo=twitter&style=for-the-badge" alt="bsreeram081999" /></a> </p>
