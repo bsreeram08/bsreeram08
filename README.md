@@ -1,7 +1,6 @@
 # 👨‍💻 Sreeram Balamurugan (SRB)
 
 <div align="center">
-  <img src="https://firebasestorage.googleapis.com/v0/b/srbwebapp-73021.appspot.com/o/IMG_20190827_191924_067.jpg?alt=media&token=e3110aee-e5a7-450e-acaa-53a08fa7b701" width="200" style="border-radius:50%"/>
 
 [![Twitter: bsreeram081999](https://img.shields.io/twitter/follow/bsreeram081999?style=social)](https://twitter.com/bsreeram081999)
 [![LinkedIn: bsreeram08](https://img.shields.io/badge/-bsreeram08-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/bsreeram08/)](https://www.linkedin.com/in/bsreeram08/)
