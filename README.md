@@ -60,6 +60,12 @@ _Flutter, Dart, Firebase, X25519, PineNaCl, RxDart, FPDart, SQLite_
 
 End-to-end encrypted clipboard synchronization system with automatic device discovery, real-time syncing, and cross-platform support.
 
+### [Tools Registry](https://tools.sreerams.in)
+
+_HTML, CSS, JS_
+
+A list of tools that i use in my day to day life
+
 ## 🛠️ NPM Packages
 
 - [**@mareers/async-throttle**](https://www.npmjs.com/package/@mareers/async-throttle) - Execute async tasks in parallel batches
