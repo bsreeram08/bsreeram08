@@ -7,108 +7,140 @@
 [![GitHub: bsreeram08](https://img.shields.io/github/followers/bsreeram08?label=follow&style=social)](https://github.com/bsreeram08)
 [![Email](https://img.shields.io/badge/Email-me%40sreerams.in-red?style=flat-square&logo=gmail)](mailto:me@sreerams.in)
 
-_Dedicated to building high-performance, scalable backend services & SDKs that drive business success_
+_Architect solving complex system design problems and building enterprise-grade infrastructure that scales_
 
 </div>
 
 ## 💡 About Me
 
-With 4+ years of experience in software development, I craft robust and efficient backend solutions. My expertise spans:
+Architect with 5+ years building enterprise systems at Surfboard Payments. I focus on solving complex cross-cutting concerns — authentication, payments, analytics, and developer platforms.
 
-- **Server Development**: Node.js, TypeScript, Bun, Erlang
-- **Mobile & Integration**: Dart/Flutter, Java/Kotlin
-- **Database Management**: PostgreSQL, Redis, Firestore, Google BigQuery
-- **Architecture Design**: Microservices, Event-driven systems, SDK development
+- **Current Role**: Architect @ Surfboard Payments (Oct 2020 – Present)
+- **Specialties**: Fintech infrastructure, IAM systems, payment processing, SDK design
+- **Core Stack**: TypeScript, Node.js, Bun, PostgreSQL, Redis, Firebase
+- **Cross-Platform**: Swift/iOS, Dart/Flutter, Kotlin/Android
+- **Architecture**: Microservices, Event-driven systems, Domain-Driven Design
 
-I've successfully designed and implemented:
+**Impact numbers**:
+- 🔐 IAM platform serving **50K+ users** — 99.9% uptime, zero incidents in 2 years
+- 💳 Payment system processing **$1M+/month** — 99.95% success rate
+- 📊 Analytics pipeline handling **10M+ events/day**
+- 📦 SDKs used by **100+ developers** — 70% faster client integration
 
-- Native authentication systems
-- Device monitoring and logging servers
-- Custom data transfer protocols
-- Payment processing integrations
-- Real-time synchronization systems
+## 🚀 Projects
 
-## 🚀 Featured Projects
+### 🖥️ macOS & Desktop
 
-### [AI Personal Journal](https://journal.sreerams.in)
+#### [Chowser](https://github.com/bsreeram08/chowser)
+_Swift · SwiftUI · macOS_
 
-_NextJS, Vertex AI, Firebase, Firestore, React, TypeScript_
+Lightweight macOS browser chooser. Intercepts every link click system-wide and lets you pick which browser to open it in — useful when juggling browsers for work, personal, and testing contexts.
 
-An intelligent journaling application powered by Google's Gemini AI that analyzes entries, provides insights, and supports full-text search with calendar navigation.
+---
 
-### [Git Commands MCP](https://github.com/bsreeram08/git-commands-mcp)
+### ⚡ CLI Tools
 
-_Node.js, TypeScript, Bun_
+#### [Cloum](https://github.com/bsreeram08/cloum)
+_TypeScript · Bun · Kubernetes · GCP · AWS · Azure_
 
-A Git repository browser implementing the Model Context Protocol (MCP) for enhanced developer experience.
+Multi-cloud Kubernetes connection manager. Intercepts kubectl context switching and handles auth/account switching automatically. Supports GKE, EKS, and AKS with cluster discovery via cloud APIs, container registry login (GCR, ECR, ACR), and bulk JSON import.
 
-### [Kioskade](https://kioskade.com/)
+#### [JetID CLI](https://github.com/bsreeram08/jetid-cli) · [![npm](https://img.shields.io/npm/v/@jetit/id?label=@jetit/id)](https://www.npmjs.com/package/@jetit/id)
+_TypeScript · Bun · Distributed Systems_
 
-_Node.js, TypeScript, PostgreSQL, Redis, Bun, Elysia, Drizzle ORM_
+Generate and convert lexically sortable, cryptographically random IDs from the terminal. Cross-platform multi-arch binary with snowflake ID support.
 
-Comprehensive restaurant management system with real-time payment processing, order management, and kitchen integration using event-driven architecture.
+#### [JWT CLI](https://github.com/bsreeram08/jwt-cli)
+_TypeScript · Bun_
 
-### [Bun STUN Server](https://github.com/bsreeram08/bun-webrtc-server)
+Instant JWT decode and inspection in the terminal. Zero dependencies, sub-millisecond startup via Bun.
 
-_Bun, TypeScript_
+---
 
-High-performance STUN server facilitating WebRTC connections, leveraging Bun's speed for efficient NAT traversal.
+### 🤖 AI & MCP
 
-### [Secure Cross-Device Clipboard](https://github.com/bsreeram08)
+#### [Cogni-Docs](https://github.com/bsreeram08/Cogni-Docs)
+_TypeScript · MCP · Bun · ChromaDB · Xenova · Elysia_
 
-_Flutter, Dart, Firebase, X25519, PineNaCl, RxDart, FPDart, SQLite_
+Local-first MCP server for AI assistants to search and query private documentation. Provider-agnostic, built for confidential docs that can't leave your machine. Vector embeddings with ChromaDB, semantic search via Xenova.
 
-End-to-end encrypted clipboard synchronization system with automatic device discovery, real-time syncing, and cross-platform support.
+#### [AI Personal Journal](https://journal.sreerams.in)
+_Next.js · Vertex AI · Gemini · Firebase · TypeScript_
 
-### [Tools Registry](https://tools.sreerams.in)
+Intelligent journaling app with AI-powered entry analysis, automated insights, full-text search, and calendar navigation. Firebase auth + Firestore for persistence.
 
-_HTML, CSS, JS_
+#### [Git Commands MCP](https://github.com/bsreeram08/git-commands-mcp) · [![npm](https://img.shields.io/npm/v/git-commands-mcp?label=npm)](https://www.npmjs.com/package/git-commands-mcp)
+_Node.js · TypeScript · Bun · MCP_
 
-A list of tools that i use in my day to day life
+Git repository browser implementing the Model Context Protocol for AI-assisted git workflows.
 
-## 🛠️ NPM Packages
+---
 
-- [**@mareers/async-throttle**](https://www.npmjs.com/package/@mareers/async-throttle) - Execute async tasks in parallel batches
-- [**@mareers/dexie-ts-extended**](https://www.npmjs.com/package/@mareers/dexie-ts-extended) - TypeScript wrapper over DexieJS
-- [**@mareers/google-bigquery-ts**](https://www.npmjs.com/package/@mareers/google-bigquery-ts) - ORM for Google BigQuery with TypeScript
+### 🌐 Web & Real-time
 
-## 📊 GitHub Stats
+#### [Payment Card Tools](https://github.com/bsreeram08/tlv_parser_utility_ui) · [Live](https://tlv.sreerams.in)
+_Bun · TypeScript · React · TLV · ISO8583_
+
+Professional-grade TLV and ISO8583 parser toolset for payment card development. Sub-millisecond parsing performance.
+
+#### [Terrible Cards](https://github.com/bsreeram08/terrible_cards)
+_SolidJS · TypeScript · Bun · Firebase · GSAP_
+
+Real-time multiplayer card game with live Firestore sync and smooth GSAP animations.
+
+#### [Bun STUN Server](https://github.com/bsreeram08/bun-webrtc-server)
+_Bun · TypeScript · WebRTC · UDP_
+
+Lightweight STUN server for WebRTC NAT traversal, leveraging Bun's efficient UDP handling.
+
+#### Secure Cross-Device Clipboard
+_Flutter · Dart · Firebase · X25519 · E2E Encryption_
+
+End-to-end encrypted clipboard sync across iOS, Android, macOS, and Web. X25519 key exchange with automatic device pairing.
+
+---
+
+## 📦 Open Source Packages
+
+| Package | Description |
+|---|---|
+| [![npm](https://img.shields.io/npm/v/@mareers/async-throttle?label=@mareers/async-throttle)](https://www.npmjs.com/package/@mareers/async-throttle) | Execute async tasks in parallel batches with configurable concurrency |
+| [![npm](https://img.shields.io/npm/v/@mareers/google-bigquery-ts?label=@mareers/google-bigquery-ts)](https://www.npmjs.com/package/@mareers/google-bigquery-ts) | Type-safe ORM wrapper for Google BigQuery with full TypeScript inference |
+| [![npm](https://img.shields.io/npm/v/@mareers/dexie-ts-extended?label=@mareers/dexie-ts-extended)](https://www.npmjs.com/package/@mareers/dexie-ts-extended) | TypeScript-first wrapper over DexieJS for IndexedDB |
+| [![](https://jitpack.io/v/bsreeram08/Ber-TLV-Kotlin.svg)](https://jitpack.io/#bsreeram08/Ber-TLV-Kotlin) | BER-TLV parser for JVM — used in Android payment terminal integrations |
+
+
+## 🛠️ Tech Stack
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=bsreeram08&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bsreeram08&layout=compact&langs_count=7&theme=radical"/>
-</div>
 
-## 🌐 Tech Stack
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Bun](https://img.shields.io/badge/-Bun-000000?style=for-the-badge&logo=bun&logoColor=white)
+![Swift](https://img.shields.io/badge/-Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white)
+![Dart](https://img.shields.io/badge/-Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![Flutter](https://img.shields.io/badge/-Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Kotlin](https://img.shields.io/badge/-Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![Erlang](https://img.shields.io/badge/-Erlang-A90533?style=for-the-badge&logo=erlang&logoColor=white)
 
-<div align="center">
-  
-  ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-  ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-  ![Bun](https://img.shields.io/badge/-Bun-000000?style=for-the-badge&logo=bun&logoColor=white)
-  ![Dart](https://img.shields.io/badge/-Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
-  ![Flutter](https://img.shields.io/badge/-Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-  ![Java](https://img.shields.io/badge/-Java-007396?style=for-the-badge&logo=java&logoColor=white)
-  ![Kotlin](https://img.shields.io/badge/-Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
-  ![Erlang](https://img.shields.io/badge/-Erlang-A90533?style=for-the-badge&logo=erlang&logoColor=white)
-  
-  ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-  ![Redis](https://img.shields.io/badge/-Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-  ![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-  ![BigQuery](https://img.shields.io/badge/-BigQuery-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
-  
-  ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-  ![Git](https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-  ![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/-Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![BigQuery](https://img.shields.io/badge/-BigQuery-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 
 </div>
 
 ---
 
 <div align="center">
-  <i>✨ Building efficient backends, one line of code at a time ✨</i>
+  <i>Building resilient systems, one architecture decision at a time</i>
   <br><br>
   <img src="https://komarev.com/ghpvc/?username=bsreeram08&label=Profile%20views&color=0e75b6&style=flat" alt="Profile visitor" />
 </div>
 
-<!-- Last updated: April 2025 -->
+<!-- Last updated: February 2026 -->
