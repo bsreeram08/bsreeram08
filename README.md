@@ -31,7 +31,7 @@ Architect with 5+ years building enterprise systems at Surfboard Payments. I foc
 
 ### 💳 Payments
 
-#### EMV Android SDK · _commercial, pre-release_
+#### EMV Android SDK · [Docs](https://bsreeram08.github.io/emv-android-sdk/) · _commercial, pre-release_
 _Go · Kotlin · Android NFC · cgo · EMV_
 
 Contactless EMV card acceptance on an Android phone's NFC reader, with no separate terminal. A Go EMV kernel (Visa and Mastercard paths, EMV C-8 Kernel 8 in progress) sits behind a Kotlin SDK: reader lifecycle, kernel-built online requests, a host interface, and NFC diagnostics that carry no card data. The card-response parsers are fuzzed from every kernel state. It is not certified yet and is delivered only to licensed customers.
