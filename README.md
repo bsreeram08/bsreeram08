@@ -29,6 +29,15 @@ Architect with 5+ years building enterprise systems at Surfboard Payments. I foc
 
 ## 🚀 Projects
 
+### 💳 Payments
+
+#### EMV Android SDK · _commercial, pre-release_
+_Go · Kotlin · Android NFC · cgo · EMV_
+
+Contactless EMV card acceptance on an Android phone's NFC reader, with no separate terminal. A Go EMV kernel (Visa and Mastercard paths, EMV C-8 Kernel 8 in progress) sits behind a Kotlin SDK: reader lifecycle, kernel-built online requests, a host interface, and NFC diagnostics that carry no card data. The card-response parsers are fuzzed from every kernel state. It is not certified yet and is delivered only to licensed customers.
+
+---
+
 ### 🖥️ macOS & Desktop
 
 #### [Chowser](https://github.com/bsreeram08/chowser)
@@ -143,4 +152,4 @@ End-to-end encrypted clipboard sync across iOS, Android, macOS, and Web. X25519 
   <img src="https://komarev.com/ghpvc/?username=bsreeram08&label=Profile%20views&color=0e75b6&style=flat" alt="Profile visitor" />
 </div>
 
-<!-- Last updated: February 2026 -->
+<!-- Last updated: October 2026 -->
