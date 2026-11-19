@@ -95,7 +95,7 @@ Architect with **6+ years** building enterprise systems at Surfboard Payments. I
 </table>
 
 <details>
-<summary><b>More projects</b> — CLI tools, MCP servers, web apps</summary>
+<summary><b>More projects</b> — agent tooling, CLI tools, MCP servers, web apps</summary>
 <br>
 
 | Project | Stack | What it does |
@@ -103,6 +103,11 @@ Architect with **6+ years** building enterprise systems at Surfboard Payments. I
 | [**Cloum**](https://github.com/bsreeram08/cloum) | TypeScript · Bun | Multi-cloud Kubernetes connection manager for GKE, EKS, and AKS, with auth switching and registry login |
 | [**JetID CLI**](https://github.com/bsreeram08/jetid-cli) | TypeScript · Bun | Lexically sortable, cryptographically random IDs from the terminal, with snowflake support |
 | [**JWT CLI**](https://github.com/bsreeram08/jwt-cli) | TypeScript · Bun | Instant JWT decode in the terminal. Zero dependencies |
+| [**Forge Council**](https://github.com/bsreeram08/forge-council) | TypeScript · Bun · Mastra | Multi-agent engineering council: 12 specialised agents turn a vague idea into a production-ready plan |
+| [**Intent Receipt**](https://github.com/bsreeram08/pi-intent-receipt) | TypeScript · Pi | Write `Intent.md`, run `/receipt`: an isolated writer builds it, the host runs the tests and prints a receipt |
+| [**Progressive Memory**](https://github.com/bsreeram08/progressive-memory) | Bun · Qdrant · Ollama | Retain, recall, and decay memory hooks for OpenClaw agents on a self-hosted vector store |
+| [**Hound Review**](https://github.com/bsreeram08/houndreview) | Bun · GitHub Apps | GitHub App that reviews PRs with a local agent and posts the result as a comment |
+| [**PetBuddy**](https://github.com/bsreeram08/petbuddy) | Swift · macOS | Pixel desktop pet that reacts to friends' Slack and Telegram messages. Pre-alpha |
 | [**Cogni-Docs**](https://github.com/bsreeram08/Cogni-Docs) | MCP · ChromaDB · Elysia | Local-first MCP server for searching private docs that can't leave your machine |
 | [**Git Commands MCP**](https://github.com/bsreeram08/git-commands-mcp) | TypeScript · MCP | Git repository browser over the Model Context Protocol |
 | [**AI Personal Journal**](https://journal.sreerams.in) | Next.js · Gemini · Firebase | Journaling with AI entry analysis, insights, and full-text search |
@@ -115,7 +120,7 @@ Architect with **6+ years** building enterprise systems at Surfboard Payments. I
 
 | Package | |
 |:--|:--|
-| [![npm](https://img.shields.io/npm/v/@bsreeram08/qrmotion?style=flat-square&color=b83230&label=@bsreeram08/qrmotion)](https://www.npmjs.com/package/@bsreeram08/qrmotion) | Animated QR codes where every frame still scans. Zero deps, SVG / canvas / terminal output, MCP server |
+| [![npm](https://img.shields.io/npm/v/@bsreeram08/qrmotion?style=flat-square&color=b83230&label=@bsreeram08/qrmotion)](https://www.npmjs.com/package/@bsreeram08/qrmotion) | Animated QR codes where every frame still scans. Zero deps, SVG / canvas / terminal output, MCP server · [source](https://github.com/bsreeram08/qrmotion) |
 | [![npm](https://img.shields.io/npm/v/@jetit/id?style=flat-square&color=0e0e0c&label=@jetit/id)](https://www.npmjs.com/package/@jetit/id) | Sortable, cryptographically random IDs |
 | [![npm](https://img.shields.io/npm/v/git-commands-mcp?style=flat-square&color=0e0e0c&label=git-commands-mcp)](https://www.npmjs.com/package/git-commands-mcp) | Git over MCP |
 | [![npm](https://img.shields.io/npm/v/@mareers/async-throttle?style=flat-square&color=0e0e0c&label=@mareers/async-throttle)](https://www.npmjs.com/package/@mareers/async-throttle) | Async tasks in parallel batches with configurable concurrency |
